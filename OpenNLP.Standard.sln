@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A34D1F77-51AB-4BD0-9331-3CA1D51C527C}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpWordNet", "ShartWordNet\SharpWordNet.csproj", "{9FDB9E0F-3D33-40B6-8CBA-9B9637989A51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{715E5FFF-5D9C-4E21-95D0-46AF412FE511}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpEntropy", "SharpEntropy\SharpEntropy.csproj", "{58560E8C-AE09-49CA-9B05-57046859F599}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenNLP", "OpenNLP\OpenNLP.csproj", "{60B74401-E841-49A8-802F-C9FCDEE0C89B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{CC60FA6C-9650-48DA-92E2-515DE2A212F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FDB9E0F-3D33-40B6-8CBA-9B9637989A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDB9E0F-3D33-40B6-8CBA-9B9637989A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDB9E0F-3D33-40B6-8CBA-9B9637989A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDB9E0F-3D33-40B6-8CBA-9B9637989A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58560E8C-AE09-49CA-9B05-57046859F599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58560E8C-AE09-49CA-9B05-57046859F599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58560E8C-AE09-49CA-9B05-57046859F599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58560E8C-AE09-49CA-9B05-57046859F599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B74401-E841-49A8-802F-C9FCDEE0C89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B74401-E841-49A8-802F-C9FCDEE0C89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B74401-E841-49A8-802F-C9FCDEE0C89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B74401-E841-49A8-802F-C9FCDEE0C89B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC60FA6C-9650-48DA-92E2-515DE2A212F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC60FA6C-9650-48DA-92E2-515DE2A212F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC60FA6C-9650-48DA-92E2-515DE2A212F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC60FA6C-9650-48DA-92E2-515DE2A212F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9FDB9E0F-3D33-40B6-8CBA-9B9637989A51} = {715E5FFF-5D9C-4E21-95D0-46AF412FE511}
+		{58560E8C-AE09-49CA-9B05-57046859F599} = {715E5FFF-5D9C-4E21-95D0-46AF412FE511}
+		{60B74401-E841-49A8-802F-C9FCDEE0C89B} = {715E5FFF-5D9C-4E21-95D0-46AF412FE511}
+		{CC60FA6C-9650-48DA-92E2-515DE2A212F6} = {715E5FFF-5D9C-4E21-95D0-46AF412FE511}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D153D7C-A528-4570-9E87-5B60BEFFB772}
+	EndGlobalSection
+EndGlobal
